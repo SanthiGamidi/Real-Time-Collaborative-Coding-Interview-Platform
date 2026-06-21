@@ -1,0 +1,23 @@
+# Root-level ignore
+.DS_Store
+.tools/
+
+# Backend ignores
+Backend/target/
+Backend/maven-bin/
+Backend/.settings/
+Backend/.project
+Backend/.classpath
+
+# Frontend ignores
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.eslintcache
+Frontend/public/vite.svg
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
